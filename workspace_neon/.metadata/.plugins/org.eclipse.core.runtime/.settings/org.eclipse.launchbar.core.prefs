@@ -1,0 +1,15 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:test Debug,org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_1.elf,org.eclipse.launchbar.core.descriptorType.default\:Segger J-Link,org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_1 Debug (1),org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_test Debug,org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_test2 Debug,org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_2.elf (1),org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_2 Debug,org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_2.elf,org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_4.elf,org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_3 Debug (1),org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_3 Debug (2),org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_1 Debug,org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_3 Debug,org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_4 Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_1\ Debug\ (1)/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_1\ Debug\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_1\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_2\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Mikrorechner_Blatt_2.elf/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Segger\ J-Link/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:test\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:test\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:test.elf/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:test.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

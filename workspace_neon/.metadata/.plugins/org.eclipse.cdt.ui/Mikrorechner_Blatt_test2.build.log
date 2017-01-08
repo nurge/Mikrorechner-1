@@ -1,0 +1,7 @@
+15:44:09 **** Clean-only build of configuration Debug for project Mikrorechner_Blatt_test2 ****
+make clean 
+rm -rf  ./1.3_und_1.4.o  Mikrorechner_Blatt_test2.hex  Mikrorechner_Blatt_test2.siz  ./1.3_und_1.4.d  Mikrorechner_Blatt_test2.elf
+ 
+
+15:44:09 Build Finished (took 78ms)
+

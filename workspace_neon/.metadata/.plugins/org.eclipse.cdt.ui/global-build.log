@@ -1,0 +1,167 @@
+20:28:09 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_4 ****
+make all 
+Building file: ../5.1.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"5.1.d" -MT"5.1.o" -c -o "5.1.o" "../5.1.S"
+Finished building: ../5.1.S
+ 
+Building target: Mikrorechner_Blatt_4.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\Users\Sascha\workspace_neon\Mikrorechner_Blatt_4\LPC-H212X-A_ram.cmd" -nostartfiles -nodefaultlibs -nostdlib -Xlinker --gc-sections -Wl,-Map,"Mikrorechner_Blatt_4.map" -o "Mikrorechner_Blatt_4.elf"  ./5.1.o   
+Finished building target: Mikrorechner_Blatt_4.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "Mikrorechner_Blatt_4.elf"  "Mikrorechner_Blatt_4.hex"
+Finished building: Mikrorechner_Blatt_4.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_4.elf"
+   text	   data	    bss	    dec	    hex	filename
+     52	      0	      0	     52	     34	Mikrorechner_Blatt_4.elf
+Finished building: Mikrorechner_Blatt_4.siz
+ 
+20:29:28 **** Build of configuration Debug for project Mikrorechner_Blatt_2 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_2.elf"
+   text	   data	    bss	    dec	    hex	filename
+     60	     20	      0	     80	     50	Mikrorechner_Blatt_2.elf
+Finished building: Mikrorechner_Blatt_2.siz
+ 
+20:29:28 **** Build of configuration Debug for project Mikrorechner_Blatt_3 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_3.elf"
+   text	   data	    bss	    dec	    hex	filename
+    136	      0	      0	    136	     88	Mikrorechner_Blatt_3.elf
+Finished building: Mikrorechner_Blatt_3.siz
+ 
+20:29:28 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_4 ****
+make all 
+Building file: ../5.1.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"5.1.d" -MT"5.1.o" -c -o "5.1.o" "../5.1.S"
+Finished building: ../5.1.S
+ 
+Building target: Mikrorechner_Blatt_4.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\Users\Sascha\workspace_neon\Mikrorechner_Blatt_4\LPC-H212X-A_ram.cmd" -nostartfiles -nodefaultlibs -nostdlib -Xlinker --gc-sections -Wl,-Map,"Mikrorechner_Blatt_4.map" -o "Mikrorechner_Blatt_4.elf"  ./5.1.o   
+Finished building target: Mikrorechner_Blatt_4.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "Mikrorechner_Blatt_4.elf"  "Mikrorechner_Blatt_4.hex"
+Finished building: Mikrorechner_Blatt_4.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_4.elf"
+   text	   data	    bss	    dec	    hex	filename
+     76	      0	      0	     76	     4c	Mikrorechner_Blatt_4.elf
+Finished building: Mikrorechner_Blatt_4.siz
+ 
+21:03:20 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_2 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_2.elf"
+   text	   data	    bss	    dec	    hex	filename
+     60	     20	      0	     80	     50	Mikrorechner_Blatt_2.elf
+Finished building: Mikrorechner_Blatt_2.siz
+ 
+21:03:20 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_3 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_3.elf"
+   text	   data	    bss	    dec	    hex	filename
+    136	      0	      0	    136	     88	Mikrorechner_Blatt_3.elf
+Finished building: Mikrorechner_Blatt_3.siz
+ 
+21:03:20 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_4 ****
+make all 
+Building file: ../5.1.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"5.1.d" -MT"5.1.o" -c -o "5.1.o" "../5.1.S"
+Finished building: ../5.1.S
+ 
+Building target: Mikrorechner_Blatt_4.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\Users\Sascha\workspace_neon\Mikrorechner_Blatt_4\LPC-H212X-A_ram.cmd" -nostartfiles -nodefaultlibs -nostdlib -Xlinker --gc-sections -Wl,-Map,"Mikrorechner_Blatt_4.map" -o "Mikrorechner_Blatt_4.elf"  ./5.1.o   
+./5.1.o: In function `flush':
+C:\Users\Sascha\workspace_neon\Mikrorechner_Blatt_4\Debug/../5.1.S:22: undefined reference to `delay_B'
+collect2.exe: error: ld returned 1 exit status
+makefile:41: recipe for target 'Mikrorechner_Blatt_4.elf' failed
+make: *** [Mikrorechner_Blatt_4.elf] Error 1
+21:05:01 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_2 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_2.elf"
+   text	   data	    bss	    dec	    hex	filename
+     60	     20	      0	     80	     50	Mikrorechner_Blatt_2.elf
+Finished building: Mikrorechner_Blatt_2.siz
+ 
+21:05:01 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_3 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_3.elf"
+   text	   data	    bss	    dec	    hex	filename
+    136	      0	      0	    136	     88	Mikrorechner_Blatt_3.elf
+Finished building: Mikrorechner_Blatt_3.siz
+ 
+21:05:01 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_4 ****
+make all 
+Building file: ../5.1.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"5.1.d" -MT"5.1.o" -c -o "5.1.o" "../5.1.S"
+Finished building: ../5.1.S
+ 
+Building target: Mikrorechner_Blatt_4.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\Users\Sascha\workspace_neon\Mikrorechner_Blatt_4\LPC-H212X-A_ram.cmd" -nostartfiles -nodefaultlibs -nostdlib -Xlinker --gc-sections -Wl,-Map,"Mikrorechner_Blatt_4.map" -o "Mikrorechner_Blatt_4.elf"  ./5.1.o   
+Finished building target: Mikrorechner_Blatt_4.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "Mikrorechner_Blatt_4.elf"  "Mikrorechner_Blatt_4.hex"
+Finished building: Mikrorechner_Blatt_4.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_4.elf"
+   text	   data	    bss	    dec	    hex	filename
+     56	      0	      0	     56	     38	Mikrorechner_Blatt_4.elf
+Finished building: Mikrorechner_Blatt_4.siz
+ 
+21:09:34 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_2 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_2.elf"
+   text	   data	    bss	    dec	    hex	filename
+     60	     20	      0	     80	     50	Mikrorechner_Blatt_2.elf
+Finished building: Mikrorechner_Blatt_2.siz
+ 
+21:09:35 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_3 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_3.elf"
+   text	   data	    bss	    dec	    hex	filename
+    136	      0	      0	    136	     88	Mikrorechner_Blatt_3.elf
+Finished building: Mikrorechner_Blatt_3.siz
+ 
+21:09:35 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_4 ****
+make all 
+Building file: ../5.1.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"5.1.d" -MT"5.1.o" -c -o "5.1.o" "../5.1.S"
+Finished building: ../5.1.S
+ 
+Building target: Mikrorechner_Blatt_4.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\Users\Sascha\workspace_neon\Mikrorechner_Blatt_4\LPC-H212X-A_ram.cmd" -nostartfiles -nodefaultlibs -nostdlib -Xlinker --gc-sections -Wl,-Map,"Mikrorechner_Blatt_4.map" -o "Mikrorechner_Blatt_4.elf"  ./5.1.o   
+Finished building target: Mikrorechner_Blatt_4.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "Mikrorechner_Blatt_4.elf"  "Mikrorechner_Blatt_4.hex"
+Finished building: Mikrorechner_Blatt_4.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_4.elf"
+   text	   data	    bss	    dec	    hex	filename
+     72	      0	      0	     72	     48	Mikrorechner_Blatt_4.elf
+Finished building: Mikrorechner_Blatt_4.siz
+ 

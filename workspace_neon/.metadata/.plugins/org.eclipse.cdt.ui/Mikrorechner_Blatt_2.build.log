@@ -1,0 +1,11 @@
+21:09:34 **** Incremental Build of configuration Debug for project Mikrorechner_Blatt_2 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_2.elf"
+   text	   data	    bss	    dec	    hex	filename
+     60	     20	      0	     80	     50	Mikrorechner_Blatt_2.elf
+Finished building: Mikrorechner_Blatt_2.siz
+ 
+
+21:09:34 Build Finished (took 122ms)
+

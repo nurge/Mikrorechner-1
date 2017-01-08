@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Mikrorechner_Blatt_2/1.3_und_1.4.S&apos; to &apos;1.1.S&apos;" description="Rename resource &apos;1.3_und_1.4.S&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="1.3_und_1.4.S" name="1.1.S" stamp="1476825273515" updateReferences="true"/>
+</session>

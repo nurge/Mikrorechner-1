@@ -1,0 +1,25 @@
+14:28:37 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.S"
+Finished building: ../test.S
+ 
+Building target: test.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\Users\Sascha\workspace_neon\test\LPC-H212X-A_ram.cmd" -nostartfiles -nodefaultlibs -nostdlib -Xlinker --gc-sections -Wl,-Map,"test.map" -o "test.elf"  ./test.o   
+Finished building target: test.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "test.elf"  "test.hex"
+Finished building: test.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "test.elf"
+   text	   data	    bss	    dec	    hex	filename
+     12	      0	      0	     12	      c	test.elf
+Finished building: test.siz
+ 
+
+14:28:37 Build Finished (took 433ms)
+

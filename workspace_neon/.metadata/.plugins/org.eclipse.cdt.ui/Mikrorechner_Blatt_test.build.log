@@ -1,0 +1,25 @@
+15:44:20 **** Build of configuration Debug for project Mikrorechner_Blatt_test ****
+make all 
+Building file: ../1.3_und_1.4.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"1.3_und_1.4.d" -MT"1.3_und_1.4.o" -c -o "1.3_und_1.4.o" "../1.3_und_1.4.S"
+Finished building: ../1.3_und_1.4.S
+ 
+Building target: Mikrorechner_Blatt_test.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=arm7tdmi-s -marm -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\Users\Sascha\workspace_neon\Mikrorechner_Blatt_test\LPC-H212X-A_ram.cmd" -nostartfiles -nodefaultlibs -nostdlib -Xlinker --gc-sections -Wl,-Map,"Mikrorechner_Blatt_test.map" -o "Mikrorechner_Blatt_test.elf"  ./1.3_und_1.4.o   
+Finished building target: Mikrorechner_Blatt_test.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "Mikrorechner_Blatt_test.elf"  "Mikrorechner_Blatt_test.hex"
+Finished building: Mikrorechner_Blatt_test.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mikrorechner_Blatt_test.elf"
+   text	   data	    bss	    dec	    hex	filename
+     20	      0	      0	     20	     14	Mikrorechner_Blatt_test.elf
+Finished building: Mikrorechner_Blatt_test.siz
+ 
+
+15:44:20 Build Finished (took 323ms)
+
