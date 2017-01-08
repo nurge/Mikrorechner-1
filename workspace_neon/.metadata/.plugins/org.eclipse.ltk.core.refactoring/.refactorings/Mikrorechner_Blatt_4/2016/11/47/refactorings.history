@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Mikrorechner_Blatt_4/4.2.S&apos; to &apos;4.2.S.bak&apos;" description="Rename resource &apos;4.2.S&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="4.2.S" name="4.2.S.bak" stamp="1479730843270" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Mikrorechner_Blatt_4/4.2.S.bak&apos; to &apos;4.2.bak.S&apos;" description="Rename resource &apos;4.2.S.bak&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="4.2.S.bak" name="4.2.bak.S" stamp="1479731024786" updateReferences="true"/>
+</session>

@@ -1,0 +1,47 @@
+.text            //Ab hier Maschinenbefehle
+.code 32         // ARM Befehlssatz
+
+.global _startup
+
+_startup:
+//initialisieren
+.equ IOPIN, 0xE0028000 // I/O actual output register address
+.equ IODIR, 0xE0028018 // I/O actual output register address
+.equ IOSET, 0xE0028014 // I/O pin setting register address
+.equ IOCLR, 0xE002801C // I/O pin clearing register address
+
+ldr r1, =IODIR			// r1 zum einstellen der Ports vorbereiten
+ldr r0, =0x00ff0000		// Ports auf 16 bis 23 einstellen
+ldr r0, [r1]			// ..
+ldr r1, = IOSET			// r1 zum setzen der Portbits vorbereiten
+ldr r0, =0x10000		// Bit 16 auf high
+str r0, [r1]			// setzen
+add r0, r0, #1<<16		// inkrementieren
+add r0, r0, #1<<16
+add r0, r0, #1<<16
+
+routine:
+ stmfd sp!, {r5-r7, lr}	//push
+
+
+ ldmfd sp!, {r5-r7, pc}	//pull
+
+
+
+.data
+.global datastart
+
+
+error:
+stop:
+	b stop
+
+.data
+.global data
+speicherA:
+.word 0x1			// Wort A1
+.word 0x2	 		// Wort A2
+speicherB:
+.word 0x3			// Wort B1
+.word 0x4			// Wort B2
+.end
